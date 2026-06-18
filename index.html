@@ -1329,8 +1329,8 @@
         <div id="vista-principal">
             <div class="nav-botones">
                 <button class="boton-nav boton-principal" onclick="scrollTo('#diario-section')">Leer la despedida</button>
-                <button class="boton-nav boton-diario" onclick="irAlDiario()">📓 Mi Diario de Esperanza</button>
-                <button class="boton-nav boton-calendario" onclick="irAlCalendario()">📅 Fecha Especial</button>
+                <button class="boton-nav boton-diario" onclick="irAlDiario()"> Mi Diario de Esperanza</button>
+                <button class="boton-nav boton-calendario" onclick="irAlCalendario()">Fecha Especial</button>
             </div>
 
             <div class="header">
@@ -1354,7 +1354,7 @@
 
                     <!-- GALERÍA DE FOTOS -->
                     <div class="contenedor-fotos">
-                        <h3 class="titulo-galeria">📸 Nuestros recuerdos</h3>
+                        <h3 class="titulo-galeria">Nuestros recuerdos</h3>
                         <div class="galeria-fotos">
                             <div class="foto-item tilt-3d">
                                 <img src="1B995113-0808-4FD2-A122-1094D4472871.JPG" alt="Recuerdo bonito">
@@ -1393,7 +1393,7 @@
 
                     <!-- SLIDER INTERACTIVO -->
                     <div class="contenedor-slider">
-                        <h3 class="titulo-slider">✨ Muévelo y lee mi despedida</h3>
+                        <h3 class="titulo-slider"> Muévelo y lee mi despedida</h3>
                         
                         <div class="corazon-indicador" id="corazonSlider">❤️</div>
 
@@ -1417,7 +1417,7 @@
 
                     <!-- FIRMA -->
                     <div class="firma">
-                        — Alguien que nunca dejará de ver lo increíble, valiosa y hermosa que eres
+                        — Bueno te hice un rediseño de la pagina y le agregue mas cosas espero que si estas leyendo esto es porque entrastaste otra vez,espero que te guste y yo espero que la pagina no llegue a fallar 
                     </div>
                 </div>
             </div>
@@ -1457,7 +1457,7 @@
                         Cargando inspiración...
                     </div>
                     <div class="frase-motivacional-autor" id="autorFrase"></div>
-                    <button class="boton-nueva-frase" onclick="cargarNewFrase()">🔄 Nueva frase</button>
+                    <button class="boton-nueva-frase" onclick="cargarNewFrase()"> Nueva frase</button>
                 </div>
 
                 <!-- ESPACIO LIBRE PARA ESCRIBIR -->
@@ -1467,25 +1467,25 @@
                     <textarea id="notaLibreTexto" class="nota-libre-texto" placeholder="Lo que pienses, lo que sientas, lo que necesites soltar..."></textarea>
                     <div class="nota-libre-pie">
                         <span class="nota-libre-estado" id="notaLibreEstado">Aún no has escrito nada aquí.</span>
-                        <button class="nota-libre-guardar" onclick="guardarNotaLibre()">💾 Guardar nota</button>
+                        <button class="nota-libre-guardar" onclick="guardarNotaLibre()"> Guardar nota</button>
                     </div>
                 </div>
 
                 <!-- SECCION ESCRIBIR -->
                 <div class="seccion-escribir">
-                    <h2 class="seccion-titulo">✍️ Escribe tu historia hoy</h2>
+                    <h2 class="seccion-titulo"> Escribe tu historia hoy</h2>
 
                     <input type="date" id="entradaFecha" class="campo-fecha">
 
                     <div>
                         <label style="display: block; margin-bottom: 0.8rem; font-weight: 600; color: var(--texto);">¿Sobre qué quieres escribir?</label>
                         <div class="selector-tema">
-                            <button class="tema-opcion activo" onclick="seleccionarTema(this, 'Sueño')">🌟 Sueño</button>
-                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Meta')">🎯 Meta</button>
-                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Reflexión')">💭 Reflexión</button>
-                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Gratitud')">🙏 Gratitud</button>
-                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Salud')">💪 Salud</button>
-                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Sanación')">🌱 Sanación</button>
+                            <button class="tema-opcion activo" onclick="seleccionarTema(this, 'Sueño')"> Sueño</button>
+                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Meta')"> Meta</button>
+                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Reflexión')"> Reflexión</button>
+                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Gratitud')"> Gratitud</button>
+                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Salud')"> Salud</button>
+                            <button class="tema-opcion" onclick="seleccionarTema(this, 'Sanación')"> Sanación</button>
                         </div>
                     </div>
 
@@ -1495,12 +1495,12 @@
                         <span id="contadorChars">0</span> caracteres
                     </div>
 
-                    <button class="boton-guardar" onclick="guardarEntrada()">💾 Guardar entrada</button>
+                    <button class="boton-guardar" onclick="guardarEntrada()"> Guardar entrada</button>
                 </div>
 
                 <!-- MIS ENTRADAS -->
                 <div class="seccion-entradas">
-                    <h2 class="titulo-entradas">📚 Mis entradas</h2>
+                    <h2 class="titulo-entradas"> Mis entradas</h2>
                     <div class="lista-entradas" id="listaEntradas">
                         <p style="color: var(--texto-claro); text-align: center; padding: 2rem;">No tienes entradas aún. ¡Empieza a escribir tu historia hoy!</p>
                     </div>
@@ -1516,7 +1516,7 @@
 
             <div class="calendario-container" id="calendarioContainer">
                 <div class="calendario-header">
-                    <h1 class="calendario-titulo">📅 Una fecha solo para ti</h1>
+                    <h1 class="calendario-titulo">Una fecha solo para ti</h1>
                     <p class="calendario-subtitulo">Este espacio despierta una sola vez al año</p>
                 </div>
 
@@ -1538,8 +1538,8 @@
                     <div class="mensaje-felicitacion-detalle" id="detalleFelicitacion"></div>
                 </div>
 
-                <button class="calendario-vista-previa" onclick="alternarVistaPrevia()" id="botonVistaPrevia">👀 Ver cómo se vería (vista previa)</button>
-                <div class="calendario-aviso-previa" id="avisoPrevia" style="display:none;">Esto es solo una vista previa de diseño. El mensaje real solo se activa el 11 de enero.</div>
+                <button class="calendario-vista-previa" onclick="alternarVistaPrevia()" id="botonVistaPrevia"> Ver cómo se vería (vista previa)</button>
+                <div class="calendario-aviso-previa" id="avisoPrevia" style="display:none;">Esto es solo una vista previa de diseño. El mensaje real solo se activa el 11 de enero </div>
             </div>
         </div>
     </div>
@@ -1556,8 +1556,8 @@
             </div>
             <div class="modal-texto" id="modalTexto"></div>
             <div class="modal-acciones">
-                <button class="boton-modal boton-editar" onclick="editarEntrada()">✏️ Editar</button>
-                <button class="boton-modal boton-eliminar" onclick="eliminarEntrada()">🗑️ Eliminar</button>
+                <button class="boton-modal boton-editar" onclick="editarEntrada()"> Editar</button>
+                <button class="boton-modal boton-eliminar" onclick="eliminarEntrada()"> Eliminar</button>
             </div>
         </div>
     </div>
@@ -2045,7 +2045,7 @@
             generarMiniCalendario(11);
             vistaPreviaActiva = false;
             document.getElementById('avisoPrevia').style.display = 'none';
-            document.getElementById('botonVistaPrevia').textContent = '👀 Ver cómo se vería (vista previa)';
+            document.getElementById('botonVistaPrevia').textContent = ' Ver cómo se vería (vista previa)';
             renderizarEstadoCalendario();
         }
 
@@ -2108,7 +2108,7 @@
                 renderizarEstadoCalendario(true);
             } else {
                 aviso.style.display = 'none';
-                boton.textContent = '👀 Ver cómo se vería (vista previa)';
+                boton.textContent = ' Ver cómo se vería (vista previa)';
                 renderizarEstadoCalendario(false);
             }
         }
@@ -2250,14 +2250,14 @@
 
         function getEmojiTema(tema) {
             const emojis = {
-                'Sueño': '🌟',
-                'Meta': '🎯',
-                'Reflexión': '💭',
-                'Gratitud': '🙏',
-                'Salud': '💪',
-                'Sanación': '🌱'
+                'Sueño': '',
+                'Meta': '',
+                'Reflexión': '',
+                'Gratitud': '',
+                'Salud': '',
+                'Sanación': ''
             };
-            return emojis[tema] || '📝';
+            return emojis[tema] || '';
         }
 
         async function abrirEntrada(id) {
